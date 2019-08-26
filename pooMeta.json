@@ -1,0 +1,58 @@
+[
+    {
+        "model":"Inception",
+        "iteration":"2",
+        "module":"https://tfhub.dev/google/imagenet/inception_v3/feature_vector/3",
+        "number_of_steps": "2000",
+        "summaries_dir":"summary_logs",
+        "output_labels":"output_labels.txt",
+        "output_graph":"output_graph.pb",
+        "random_crop":"0",
+        "random_brightness":"0"
+    },
+    {
+        "model":"Resnet",
+        "iteration":"2",
+        "module":"https://tfhub.dev/google/imagenet/resnet_v2_152/feature_vector/3",
+        "number_of_steps": "2000",
+        "summaries_dir":"summary_logs",
+        "output_labels":"output_labels.txt",
+        "output_graph":"output_graph.pb",
+        "random_crop":"0",
+        "random_brightness":"0"
+    },
+    {
+        "model":"Mobilenet",
+        "iteration":"2",
+        "module":"https://tfhub.dev/google/imagenet/mobilenet_v2_140_224/feature_vector/3",
+        "number_of_steps": "2000",
+        "summaries_dir":"summary_logs",
+        "output_labels":"output_labels.txt",
+        "output_graph":"output_graph.pb",
+        "random_crop":"0",
+        "random_brightness":"0"
+    },
+    {
+        "model":"Pnasnet",
+        "iteration":"2",
+        "module":"https://tfhub.dev/google/imagenet/pnasnet_large/feature_vector/3",
+        "number_of_steps": "2000",
+        "summaries_dir":"summary_logs",
+        "output_labels":"output_labels.txt",
+        "output_graph":"output_graph.pb",
+        "random_crop":"0",
+        "random_brightness":"0"
+    },
+    {
+        "model":"Nasnet",
+        "iteration":"2",
+        "module":"https://tfhub.dev/google/imagenet/nasnet_large/feature_vector/3",
+        "number_of_steps": "2000",
+        "summaries_dir":"summary_logs",
+        "output_labels":"output_labels.txt",
+        "output_graph":"output_graph.pb",
+        "random_crop":"0",
+        "random_brightness":"0"
+    }
+
+]
